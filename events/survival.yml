@@ -1,0 +1,10 @@
+tags:
+ - "newbie"
+conditions:
+  1:
+    type: "MESSAGE_CONTAINS"
+    value: "i want to go to survival"
+actions:
+  1:
+    type: "RUN_COMMAND_AS_SELF"
+    value: "l survival"

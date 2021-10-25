@@ -1,0 +1,48 @@
+motd:
+  '1': '&7>> &cPlasmere &7Test &5Network &7<< &8(&61.8 &bto &61.17&a+&8)%newline%&4&lJOIN
+    NOW! &6%online%&8/&6%max% &eSlimeblock! &d(Slimefun + Skyblock)'
+motd-time: -1
+version: Minecraft 1.8 to 1.17
+sample:
+  '1': '&7======================================='
+  '2': '&eWelcome to &chypixel.net'
+  '3': '&eStore: &chttps://store.plasmere.net'
+  '4': '&eWebsite: &chttps://site.plasmere.net'
+  '5': '&ePlayers: &6%online%&8/&6%max%'
+  '6': '&eThis is the &7Test Server&e!'
+  '7': '&7======================================='
+max-players: exact+1
+online-players: exact
+proxy-chat:
+  enabled: true
+  to-console: true
+  base-perm: streamline.chat.
+  chats:
+    '1': '&d%sender%&r &7&l>> &f%message%'
+    '2': '&d%sender%&r &7&l>> &e%message%'
+    '3': '&d%sender%&r &7&l>> &6%message%'
+  tags:
+    enable-ping: true
+    tag-prefix: '&2'
+  emotes:
+    ':shrug:':
+      emote: '&a¯\_(ツ)_/¯'
+      permission: streamline.emote.shrug
+    ':oof:':
+      emote: '&c&lOOF'
+      permission: streamline.emote.oof
+    o/:
+      emote: '&d( ﾟ◡ﾟ)/&r'
+      permission: streamline.emote.wave
+    ':gimme:':
+      emote: '&b༼つ◕_◕༽つ&r'
+      permission: streamline.emote.gimme
+    ':tableflip:':
+      emote: '&5(╯°□°）╯︵ ┻━┻&r'
+      permission: streamline.emote.tableflip
+    ':unflip:':
+      emote: '&5┬─┬ ノ( ゜-゜ノ)&r'
+      permission: streamline.emote.unflip
+    ':wizard:':
+      emote: '&e(&b''-''&e)⊃━&5☆&dﾟ&4.&c*&3･&b｡&6ﾟ&r'
+      permission: streamline.emote.wizard

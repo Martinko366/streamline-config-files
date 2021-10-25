@@ -1,0 +1,10 @@
+tags:
+ - "newbie"
+conditions:
+  1:
+    type: "JOIN"
+    value: "survival"
+actions:
+  1:
+    type: "SEND_MESSAGE_TO_FRIENDS"
+    value: "&d%from% &bjust joined the &csemi&8-&cvanilla survival &bserver&8! &bCatch them there&8!"

@@ -1,0 +1,13 @@
+tags:
+ - "newbie"
+conditions:
+  1:
+    type: "JOIN"
+    value: "network"
+actions:
+  1:
+    type: "GIVE_POINTS"
+    value: "1"
+  2:
+    type: "SEND_MESSAGE_TO"
+    value: "&7&m                                                               %newline%&eWelcome to the &c&lPlasmere &5&lNetwork&8!%newline%&eYou can find lots to do here&8! &eWe have different servers which you can get &csurvival&8-&elike &bMinecraft &econtent on&8!%newline%%newline%&eDo you &4record &eor &5stream&8? &eIf yes&8, &eyou can most likely get the media rank&8!%newline%%newline%&eHave &9&lDiscord&8? &eIf yes&8, &ejoin our &9&lDiscord &ehere&8: &b&nhttps://discord.com/invite/mCjwkjF%newline%&7&m                                                               "

@@ -1,0 +1,10 @@
+tags:
+ - "staff"
+conditions:
+  1:
+    type: "MESSAGE_STARTS_WITH"
+    value: "kick"
+actions:
+  1:
+    type: "RUN_COMMAND_AS_OP"
+    value: "kick %arg:1%"
